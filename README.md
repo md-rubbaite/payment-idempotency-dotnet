@@ -2,12 +2,12 @@
 
 **Your payment API timed out. Did the payment fail, or did the response fail?**
 
-This is a .NET 8 reference implementation that charges a customer **at most once per idempotency key**.
+This is a .NET 10 reference implementation that charges a customer **at most once per idempotency key**.
 It holds even when the provider succeeds but the response is lost, when clients retry concurrently, or
 when a worker crashes mid-request.
 
 [![ci](../../actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
-![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4)
+![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
 ## The failure path, not just the happy path
